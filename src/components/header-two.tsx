@@ -4,33 +4,7 @@ import { SideNav } from "./side-nav";
 
 const navItems = ["Home", "Dashboard", "Products", "Transactions", "Journal"];
 
-const Header = () => {
-  return (
-    <header>
-      <HeaderTop />
-      <HeaderBottom />
-    </header>
-  );
-};
-
-export default Header;
-
-const HeaderTop = () => {
-  return (
-    <div className="bg-[#ECECEC] py-3">
-      <Container className="flex items-center">
-        <img
-          src="/real-estate-house.png"
-          alt="Real estate house"
-          className="w-16"
-        />
-        <h1 className="mx-auto font-bold">XYZ SYSTEMS LLP.</h1>
-      </Container>
-    </div>
-  );
-};
-
-const HeaderBottom = () => {
+const HeaderTwo = () => {
   return (
     <Container className="relative flex items-center justify-start py-4 lg:justify-center">
       {/* Navigation List */}
@@ -64,3 +38,5 @@ const HeaderBottom = () => {
     </Container>
   );
 };
+
+export default HeaderTwo;
